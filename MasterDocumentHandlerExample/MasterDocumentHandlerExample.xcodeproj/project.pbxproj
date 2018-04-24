@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FD52B50EC463E6E4CB80942 /* Pods_MasterDocumentHandlerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDBA5C9904375A8B4D1DA7B /* Pods_MasterDocumentHandlerExample.framework */; };
+		A9A4685620580CB9006831CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A4685420580CB9006831CD /* Main.storyboard */; };
+		A9A4685820580CB9006831CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A4685720580CB9006831CD /* Assets.xcassets */; };
+		A9A4685B20580CB9006831CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A4685920580CB9006831CD /* LaunchScreen.storyboard */; };
+		A9C34E3E205A686700F7900E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E17205A686700F7900E /* AppDelegate.swift */; };
+		A9C34E3F205A686700F7900E /* MasterFrameworkMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C34E1A205A686700F7900E /* MasterFrameworkMedia.xcassets */; };
+		A9C34E40205A686700F7900E /* UIButtonMasterDocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E1E205A686700F7900E /* UIButtonMasterDocumentPicker.swift */; };
+		A9C34E41205A686700F7900E /* UIButtonMasterDocumentUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E20205A686700F7900E /* UIButtonMasterDocumentUploader.swift */; };
+		A9C34E42205A686700F7900E /* MDPickerDropBoxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E23205A686700F7900E /* MDPickerDropBoxManager.swift */; };
+		A9C34E43205A686700F7900E /* MDPickerGoogleDriveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E24205A686700F7900E /* MDPickerGoogleDriveManager.swift */; };
+		A9C34E44205A686700F7900E /* MDPickerICloudManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E25205A686700F7900E /* MDPickerICloudManager.swift */; };
+		A9C34E45205A686700F7900E /* MDPickerPDFConvertorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E26205A686700F7900E /* MDPickerPDFConvertorManager.swift */; };
+		A9C34E46205A686700F7900E /* MDPickerUIImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E27205A686700F7900E /* MDPickerUIImagePickerManager.swift */; };
+		A9C34E47205A686700F7900E /* MasterCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E2A205A686700F7900E /* MasterCameraView.swift */; };
+		A9C34E48205A686700F7900E /* MasterDocumentContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E2B205A686700F7900E /* MasterDocumentContentCell.swift */; };
+		A9C34E49205A686700F7900E /* PDFConvertorImagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E2C205A686700F7900E /* PDFConvertorImagesCell.swift */; };
+		A9C34E4A205A686700F7900E /* DropBoxContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C34E2E205A686700F7900E /* DropBoxContentViewController.xib */; };
+		A9C34E4B205A686700F7900E /* GoogleDriveContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C34E2F205A686700F7900E /* GoogleDriveContentViewController.xib */; };
+		A9C34E4C205A686700F7900E /* MasterDocumentContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C34E30205A686700F7900E /* MasterDocumentContentCell.xib */; };
+		A9C34E4D205A686700F7900E /* PDFConvertorImagesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C34E31205A686700F7900E /* PDFConvertorImagesCell.xib */; };
+		A9C34E4E205A686700F7900E /* PDFConvertorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C34E32205A686700F7900E /* PDFConvertorViewController.xib */; };
+		A9C34E4F205A686700F7900E /* DropBoxContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E34205A686700F7900E /* DropBoxContentViewController.swift */; };
+		A9C34E50205A686700F7900E /* GoogleDriveContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E35205A686700F7900E /* GoogleDriveContentViewController.swift */; };
+		A9C34E51205A686700F7900E /* PDFConvertorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E36205A686700F7900E /* PDFConvertorViewController.swift */; };
+		A9C34E52205A686700F7900E /* MasterDocumentConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E39205A686700F7900E /* MasterDocumentConstant.swift */; };
+		A9C34E53205A686700F7900E /* MasterDocumentProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E3A205A686700F7900E /* MasterDocumentProtocols.swift */; };
+		A9C34E54205A686700F7900E /* MasterDocumentUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E3B205A686700F7900E /* MasterDocumentUtility.swift */; };
+		A9C34E55205A686700F7900E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C34E3D205A686700F7900E /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1532A1B1BE32C4BE63D44203 /* Pods-MasterDocumentHandlerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterDocumentHandlerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasterDocumentHandlerExample/Pods-MasterDocumentHandlerExample.release.xcconfig"; sourceTree = "<group>"; };
+		5CDBA5C9904375A8B4D1DA7B /* Pods_MasterDocumentHandlerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasterDocumentHandlerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A4684D20580CB9006831CD /* MasterDocumentHandlerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterDocumentHandlerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A4685520580CB9006831CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9A4685720580CB9006831CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9A4685A20580CB9006831CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9A4685C20580CB9006831CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C34E17205A686700F7900E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9C34E1A205A686700F7900E /* MasterFrameworkMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MasterFrameworkMedia.xcassets; sourceTree = "<group>"; };
+		A9C34E1E205A686700F7900E /* UIButtonMasterDocumentPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonMasterDocumentPicker.swift; sourceTree = "<group>"; };
+		A9C34E20205A686700F7900E /* UIButtonMasterDocumentUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonMasterDocumentUploader.swift; sourceTree = "<group>"; };
+		A9C34E23205A686700F7900E /* MDPickerDropBoxManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDPickerDropBoxManager.swift; sourceTree = "<group>"; };
+		A9C34E24205A686700F7900E /* MDPickerGoogleDriveManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDPickerGoogleDriveManager.swift; sourceTree = "<group>"; };
+		A9C34E25205A686700F7900E /* MDPickerICloudManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDPickerICloudManager.swift; sourceTree = "<group>"; };
+		A9C34E26205A686700F7900E /* MDPickerPDFConvertorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDPickerPDFConvertorManager.swift; sourceTree = "<group>"; };
+		A9C34E27205A686700F7900E /* MDPickerUIImagePickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDPickerUIImagePickerManager.swift; sourceTree = "<group>"; };
+		A9C34E2A205A686700F7900E /* MasterCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterCameraView.swift; sourceTree = "<group>"; };
+		A9C34E2B205A686700F7900E /* MasterDocumentContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterDocumentContentCell.swift; sourceTree = "<group>"; };
+		A9C34E2C205A686700F7900E /* PDFConvertorImagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFConvertorImagesCell.swift; sourceTree = "<group>"; };
+		A9C34E2E205A686700F7900E /* DropBoxContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropBoxContentViewController.xib; sourceTree = "<group>"; };
+		A9C34E2F205A686700F7900E /* GoogleDriveContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleDriveContentViewController.xib; sourceTree = "<group>"; };
+		A9C34E30205A686700F7900E /* MasterDocumentContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterDocumentContentCell.xib; sourceTree = "<group>"; };
+		A9C34E31205A686700F7900E /* PDFConvertorImagesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFConvertorImagesCell.xib; sourceTree = "<group>"; };
+		A9C34E32205A686700F7900E /* PDFConvertorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFConvertorViewController.xib; sourceTree = "<group>"; };
+		A9C34E34205A686700F7900E /* DropBoxContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxContentViewController.swift; sourceTree = "<group>"; };
+		A9C34E35205A686700F7900E /* GoogleDriveContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveContentViewController.swift; sourceTree = "<group>"; };
+		A9C34E36205A686700F7900E /* PDFConvertorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFConvertorViewController.swift; sourceTree = "<group>"; };
+		A9C34E39205A686700F7900E /* MasterDocumentConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterDocumentConstant.swift; sourceTree = "<group>"; };
+		A9C34E3A205A686700F7900E /* MasterDocumentProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterDocumentProtocols.swift; sourceTree = "<group>"; };
+		A9C34E3B205A686700F7900E /* MasterDocumentUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterDocumentUtility.swift; sourceTree = "<group>"; };
+		A9C34E3D205A686700F7900E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE0763FCC967E454B9E58FDC /* Pods-MasterDocumentHandlerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterDocumentHandlerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasterDocumentHandlerExample/Pods-MasterDocumentHandlerExample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9A4684A20580CB9006831CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD52B50EC463E6E4CB80942 /* Pods_MasterDocumentHandlerExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73A2DD6AD6119B28BB32E176 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CDBA5C9904375A8B4D1DA7B /* Pods_MasterDocumentHandlerExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		907182385E07FC7F44417A2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE0763FCC967E454B9E58FDC /* Pods-MasterDocumentHandlerExample.debug.xcconfig */,
+				1532A1B1BE32C4BE63D44203 /* Pods-MasterDocumentHandlerExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9A4684420580CB8006831CD = {
+			isa = PBXGroup;
+			children = (
+				A9A4684F20580CB9006831CD /* MasterDocumentHandlerExample */,
+				A9A4684E20580CB9006831CD /* Products */,
+				907182385E07FC7F44417A2F /* Pods */,
+				73A2DD6AD6119B28BB32E176 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9A4684E20580CB9006831CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9A4684D20580CB9006831CD /* MasterDocumentHandlerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9A4684F20580CB9006831CD /* MasterDocumentHandlerExample */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E15205A686700F7900E /* Source */,
+				A9A4685420580CB9006831CD /* Main.storyboard */,
+				A9A4685720580CB9006831CD /* Assets.xcassets */,
+				A9A4685920580CB9006831CD /* LaunchScreen.storyboard */,
+				A9A4685C20580CB9006831CD /* Info.plist */,
+			);
+			path = MasterDocumentHandlerExample;
+			sourceTree = "<group>";
+		};
+		A9C34E15205A686700F7900E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E16205A686700F7900E /* AppDelegate */,
+				A9C34E18205A686700F7900E /* Resources */,
+				A9C34E3C205A686700F7900E /* ViewController */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A9C34E16205A686700F7900E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E17205A686700F7900E /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A9C34E18205A686700F7900E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E19205A686700F7900E /* Images */,
+				A9C34E1B205A686700F7900E /* MasterDocumentPicker */,
+				A9C34E37205A686700F7900E /* Utility */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A9C34E19205A686700F7900E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E1A205A686700F7900E /* MasterFrameworkMedia.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A9C34E1B205A686700F7900E /* MasterDocumentPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E1C205A686700F7900E /* Module */,
+				A9C34E22205A686700F7900E /* PickerManager */,
+				A9C34E28205A686700F7900E /* View */,
+				A9C34E33205A686700F7900E /* ViewController */,
+			);
+			path = MasterDocumentPicker;
+			sourceTree = "<group>";
+		};
+		A9C34E1C205A686700F7900E /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E1D205A686700F7900E /* DocumentPicker */,
+				A9C34E1F205A686700F7900E /* DocumentUploader */,
+				A9C34E21205A686700F7900E /* DocumentViewer */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		A9C34E1D205A686700F7900E /* DocumentPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E1E205A686700F7900E /* UIButtonMasterDocumentPicker.swift */,
+			);
+			path = DocumentPicker;
+			sourceTree = "<group>";
+		};
+		A9C34E1F205A686700F7900E /* DocumentUploader */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E20205A686700F7900E /* UIButtonMasterDocumentUploader.swift */,
+			);
+			path = DocumentUploader;
+			sourceTree = "<group>";
+		};
+		A9C34E21205A686700F7900E /* DocumentViewer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DocumentViewer;
+			sourceTree = "<group>";
+		};
+		A9C34E22205A686700F7900E /* PickerManager */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E23205A686700F7900E /* MDPickerDropBoxManager.swift */,
+				A9C34E24205A686700F7900E /* MDPickerGoogleDriveManager.swift */,
+				A9C34E25205A686700F7900E /* MDPickerICloudManager.swift */,
+				A9C34E26205A686700F7900E /* MDPickerPDFConvertorManager.swift */,
+				A9C34E27205A686700F7900E /* MDPickerUIImagePickerManager.swift */,
+			);
+			path = PickerManager;
+			sourceTree = "<group>";
+		};
+		A9C34E28205A686700F7900E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E29205A686700F7900E /* Classes */,
+				A9C34E2D205A686700F7900E /* XIB */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A9C34E29205A686700F7900E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E2A205A686700F7900E /* MasterCameraView.swift */,
+				A9C34E2B205A686700F7900E /* MasterDocumentContentCell.swift */,
+				A9C34E2C205A686700F7900E /* PDFConvertorImagesCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A9C34E2D205A686700F7900E /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E2E205A686700F7900E /* DropBoxContentViewController.xib */,
+				A9C34E2F205A686700F7900E /* GoogleDriveContentViewController.xib */,
+				A9C34E30205A686700F7900E /* MasterDocumentContentCell.xib */,
+				A9C34E31205A686700F7900E /* PDFConvertorImagesCell.xib */,
+				A9C34E32205A686700F7900E /* PDFConvertorViewController.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		A9C34E33205A686700F7900E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E34205A686700F7900E /* DropBoxContentViewController.swift */,
+				A9C34E35205A686700F7900E /* GoogleDriveContentViewController.swift */,
+				A9C34E36205A686700F7900E /* PDFConvertorViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A9C34E37205A686700F7900E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E38205A686700F7900E /* Constant */,
+				A9C34E3A205A686700F7900E /* MasterDocumentProtocols.swift */,
+				A9C34E3B205A686700F7900E /* MasterDocumentUtility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A9C34E38205A686700F7900E /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E39205A686700F7900E /* MasterDocumentConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		A9C34E3C205A686700F7900E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A9C34E3D205A686700F7900E /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9A4684C20580CB9006831CD /* MasterDocumentHandlerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9A4685F20580CB9006831CD /* Build configuration list for PBXNativeTarget "MasterDocumentHandlerExample" */;
+			buildPhases = (
+				5C08AFD67D229331EAABD8A7 /* [CP] Check Pods Manifest.lock */,
+				A9A4684920580CB9006831CD /* Sources */,
+				A9A4684A20580CB9006831CD /* Frameworks */,
+				A9A4684B20580CB9006831CD /* Resources */,
+				C6879F53C11005C12DE0D6F2 /* [CP] Embed Pods Frameworks */,
+				F842FC099D4C2292B48AA698 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasterDocumentHandlerExample;
+			productName = MasterDocumentHandlerExample;
+			productReference = A9A4684D20580CB9006831CD /* MasterDocumentHandlerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9A4684520580CB8006831CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Himanshu Jamnani";
+				TargetAttributes = {
+					A9A4684C20580CB9006831CD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A9A4684820580CB9006831CD /* Build configuration list for PBXProject "MasterDocumentHandlerExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9A4684420580CB8006831CD;
+			productRefGroup = A9A4684E20580CB9006831CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9A4684C20580CB9006831CD /* MasterDocumentHandlerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9A4684B20580CB9006831CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C34E4B205A686700F7900E /* GoogleDriveContentViewController.xib in Resources */,
+				A9A4685B20580CB9006831CD /* LaunchScreen.storyboard in Resources */,
+				A9C34E4A205A686700F7900E /* DropBoxContentViewController.xib in Resources */,
+				A9A4685820580CB9006831CD /* Assets.xcassets in Resources */,
+				A9C34E4C205A686700F7900E /* MasterDocumentContentCell.xib in Resources */,
+				A9C34E4E205A686700F7900E /* PDFConvertorViewController.xib in Resources */,
+				A9C34E4D205A686700F7900E /* PDFConvertorImagesCell.xib in Resources */,
+				A9A4685620580CB9006831CD /* Main.storyboard in Resources */,
+				A9C34E3F205A686700F7900E /* MasterFrameworkMedia.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C08AFD67D229331EAABD8A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MasterDocumentHandlerExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6879F53C11005C12DE0D6F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MasterDocumentHandlerExample/Pods-MasterDocumentHandlerExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyDropbox/SwiftyDropbox.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyDropbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasterDocumentHandlerExample/Pods-MasterDocumentHandlerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F842FC099D4C2292B48AA698 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MasterDocumentHandlerExample/Pods-MasterDocumentHandlerExample-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasterDocumentHandlerExample/Pods-MasterDocumentHandlerExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9A4684920580CB9006831CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C34E49205A686700F7900E /* PDFConvertorImagesCell.swift in Sources */,
+				A9C34E4F205A686700F7900E /* DropBoxContentViewController.swift in Sources */,
+				A9C34E50205A686700F7900E /* GoogleDriveContentViewController.swift in Sources */,
+				A9C34E44205A686700F7900E /* MDPickerICloudManager.swift in Sources */,
+				A9C34E51205A686700F7900E /* PDFConvertorViewController.swift in Sources */,
+				A9C34E41205A686700F7900E /* UIButtonMasterDocumentUploader.swift in Sources */,
+				A9C34E40205A686700F7900E /* UIButtonMasterDocumentPicker.swift in Sources */,
+				A9C34E43205A686700F7900E /* MDPickerGoogleDriveManager.swift in Sources */,
+				A9C34E53205A686700F7900E /* MasterDocumentProtocols.swift in Sources */,
+				A9C34E48205A686700F7900E /* MasterDocumentContentCell.swift in Sources */,
+				A9C34E54205A686700F7900E /* MasterDocumentUtility.swift in Sources */,
+				A9C34E47205A686700F7900E /* MasterCameraView.swift in Sources */,
+				A9C34E55205A686700F7900E /* ViewController.swift in Sources */,
+				A9C34E52205A686700F7900E /* MasterDocumentConstant.swift in Sources */,
+				A9C34E45205A686700F7900E /* MDPickerPDFConvertorManager.swift in Sources */,
+				A9C34E3E205A686700F7900E /* AppDelegate.swift in Sources */,
+				A9C34E46205A686700F7900E /* MDPickerUIImagePickerManager.swift in Sources */,
+				A9C34E42205A686700F7900E /* MDPickerDropBoxManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9A4685420580CB9006831CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9A4685520580CB9006831CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9A4685920580CB9006831CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9A4685A20580CB9006831CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9A4685D20580CB9006831CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9A4685E20580CB9006831CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9A4686020580CB9006831CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE0763FCC967E454B9E58FDC /* Pods-MasterDocumentHandlerExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7BCW99KL8P;
+				INFOPLIST_FILE = MasterDocumentHandlerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MasterDocumentHandlerExample.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "60fd0277-7ba5-4aea-a080-c3dcad0d9bc7";
+				PROVISIONING_PROFILE_SPECIFIER = IndiaNIC_WildCard_Dev_Profile;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9A4686120580CB9006831CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1532A1B1BE32C4BE63D44203 /* Pods-MasterDocumentHandlerExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7BCW99KL8P;
+				INFOPLIST_FILE = MasterDocumentHandlerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MasterDocumentHandlerExample.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "60fd0277-7ba5-4aea-a080-c3dcad0d9bc7";
+				PROVISIONING_PROFILE_SPECIFIER = IndiaNIC_WildCard_Dev_Profile;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9A4684820580CB9006831CD /* Build configuration list for PBXProject "MasterDocumentHandlerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A4685D20580CB9006831CD /* Debug */,
+				A9A4685E20580CB9006831CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9A4685F20580CB9006831CD /* Build configuration list for PBXNativeTarget "MasterDocumentHandlerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A4686020580CB9006831CD /* Debug */,
+				A9A4686120580CB9006831CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9A4684520580CB8006831CD /* Project object */;
+}
