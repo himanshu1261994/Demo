@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A98CEC2B1F8F5A350054D0E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC2A1F8F5A350054D0E8 /* AppDelegate.swift */; };
+		A98CEC2D1F8F5A350054D0E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC2C1F8F5A350054D0E8 /* ViewController.swift */; };
+		A98CEC301F8F5A360054D0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98CEC2E1F8F5A360054D0E8 /* Main.storyboard */; };
+		A98CEC321F8F5A360054D0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98CEC311F8F5A360054D0E8 /* Assets.xcassets */; };
+		A98CEC351F8F5A360054D0E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98CEC331F8F5A360054D0E8 /* LaunchScreen.storyboard */; };
+		A98CEC5D1F8F77B80054D0E8 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC3E1F8F77B80054D0E8 /* Album.swift */; };
+		A98CEC5E1F8F77B80054D0E8 /* FSAlbumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC3F1F8F77B80054D0E8 /* FSAlbumVC.swift */; };
+		A98CEC5F1F8F77B80054D0E8 /* FSAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC401F8F77B80054D0E8 /* FSAlbumView.swift */; };
+		A98CEC601F8F77B80054D0E8 /* FSAlbumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A98CEC411F8F77B80054D0E8 /* FSAlbumView.xib */; };
+		A98CEC611F8F77B80054D0E8 /* FSAlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC421F8F77B80054D0E8 /* FSAlbumViewCell.swift */; };
+		A98CEC621F8F77B80054D0E8 /* FSGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC431F8F77B80054D0E8 /* FSGridView.swift */; };
+		A98CEC631F8F77B80054D0E8 /* FSImageCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC441F8F77B80054D0E8 /* FSImageCropView.swift */; };
+		A98CEC641F8F77B80054D0E8 /* ImageCropViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC451F8F77B80054D0E8 /* ImageCropViewContainer.swift */; };
+		A98CEC651F8F77B80054D0E8 /* PHAssetCollection+Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC461F8F77B80054D0E8 /* PHAssetCollection+Album.swift */; };
+		A98CEC661F8F77B80054D0E8 /* YPAlbumFolderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC471F8F77B80054D0E8 /* YPAlbumFolderCell.swift */; };
+		A98CEC671F8F77B80054D0E8 /* YPAlbumFolderSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC481F8F77B80054D0E8 /* YPAlbumFolderSelectionVC.swift */; };
+		A98CEC681F8F77B80054D0E8 /* YPAlbumFolderSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC491F8F77B80054D0E8 /* YPAlbumFolderSelectionView.swift */; };
+		A98CEC691F8F77B80054D0E8 /* FSCameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC4B1F8F77B80054D0E8 /* FSCameraVC.swift */; };
+		A98CEC6A1F8F77B80054D0E8 /* FSCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC4C1F8F77B80054D0E8 /* FSCameraView.swift */; };
+		A98CEC6B1F8F77B80054D0E8 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC4E1F8F77B80054D0E8 /* Filter.swift */; };
+		A98CEC6C1F8F77B80054D0E8 /* FilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC4F1F8F77B80054D0E8 /* FilterCollectionViewCell.swift */; };
+		A98CEC6D1F8F77B80054D0E8 /* FilterPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC501F8F77B80054D0E8 /* FilterPreview.swift */; };
+		A98CEC6E1F8F77B80054D0E8 /* FiltersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC511F8F77B80054D0E8 /* FiltersVC.swift */; };
+		A98CEC6F1F8F77B80054D0E8 /* FiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC521F8F77B80054D0E8 /* FiltersView.swift */; };
+		A98CEC701F8F77B80054D0E8 /* FSBottomPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC531F8F77B80054D0E8 /* FSBottomPager.swift */; };
+		A98CEC711F8F77B80054D0E8 /* FSConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC541F8F77B80054D0E8 /* FSConfiguration.swift */; };
+		A98CEC721F8F77B80054D0E8 /* FSHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC551F8F77B80054D0E8 /* FSHelpers.swift */; };
+		A98CEC731F8F77B80054D0E8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A98CEC561F8F77B80054D0E8 /* Info.plist */; };
+		A98CEC741F8F77B80054D0E8 /* PhotoSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC571F8F77B80054D0E8 /* PhotoSaver.swift */; };
+		A98CEC751F8F77B80054D0E8 /* PickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC581F8F77B80054D0E8 /* PickerVC.swift */; };
+		A98CEC761F8F77B80054D0E8 /* FSVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC5A1F8F77B80054D0E8 /* FSVideoVC.swift */; };
+		A98CEC771F8F77B80054D0E8 /* YPImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98CEC5B1F8F77B80054D0E8 /* YPImagePicker.swift */; };
+		C9B56CE254B6D25850E4EC64 /* Pods_YPImagePickerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D127C050A1655CE4333679E3 /* Pods_YPImagePickerDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A98CEC271F8F5A350054D0E8 /* YPImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98CEC2A1F8F5A350054D0E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A98CEC2C1F8F5A350054D0E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A98CEC2F1F8F5A360054D0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A98CEC311F8F5A360054D0E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A98CEC341F8F5A360054D0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A98CEC361F8F5A360054D0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98CEC3E1F8F77B80054D0E8 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		A98CEC3F1F8F77B80054D0E8 /* FSAlbumVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSAlbumVC.swift; sourceTree = "<group>"; };
+		A98CEC401F8F77B80054D0E8 /* FSAlbumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSAlbumView.swift; sourceTree = "<group>"; };
+		A98CEC411F8F77B80054D0E8 /* FSAlbumView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSAlbumView.xib; sourceTree = "<group>"; };
+		A98CEC421F8F77B80054D0E8 /* FSAlbumViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSAlbumViewCell.swift; sourceTree = "<group>"; };
+		A98CEC431F8F77B80054D0E8 /* FSGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSGridView.swift; sourceTree = "<group>"; };
+		A98CEC441F8F77B80054D0E8 /* FSImageCropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSImageCropView.swift; sourceTree = "<group>"; };
+		A98CEC451F8F77B80054D0E8 /* ImageCropViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCropViewContainer.swift; sourceTree = "<group>"; };
+		A98CEC461F8F77B80054D0E8 /* PHAssetCollection+Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PHAssetCollection+Album.swift"; sourceTree = "<group>"; };
+		A98CEC471F8F77B80054D0E8 /* YPAlbumFolderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPAlbumFolderCell.swift; sourceTree = "<group>"; };
+		A98CEC481F8F77B80054D0E8 /* YPAlbumFolderSelectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPAlbumFolderSelectionVC.swift; sourceTree = "<group>"; };
+		A98CEC491F8F77B80054D0E8 /* YPAlbumFolderSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPAlbumFolderSelectionView.swift; sourceTree = "<group>"; };
+		A98CEC4B1F8F77B80054D0E8 /* FSCameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSCameraVC.swift; sourceTree = "<group>"; };
+		A98CEC4C1F8F77B80054D0E8 /* FSCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSCameraView.swift; sourceTree = "<group>"; };
+		A98CEC4E1F8F77B80054D0E8 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		A98CEC4F1F8F77B80054D0E8 /* FilterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		A98CEC501F8F77B80054D0E8 /* FilterPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterPreview.swift; sourceTree = "<group>"; };
+		A98CEC511F8F77B80054D0E8 /* FiltersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersVC.swift; sourceTree = "<group>"; };
+		A98CEC521F8F77B80054D0E8 /* FiltersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersView.swift; sourceTree = "<group>"; };
+		A98CEC531F8F77B80054D0E8 /* FSBottomPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSBottomPager.swift; sourceTree = "<group>"; };
+		A98CEC541F8F77B80054D0E8 /* FSConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSConfiguration.swift; sourceTree = "<group>"; };
+		A98CEC551F8F77B80054D0E8 /* FSHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSHelpers.swift; sourceTree = "<group>"; };
+		A98CEC561F8F77B80054D0E8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98CEC571F8F77B80054D0E8 /* PhotoSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSaver.swift; sourceTree = "<group>"; };
+		A98CEC581F8F77B80054D0E8 /* PickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerVC.swift; sourceTree = "<group>"; };
+		A98CEC5A1F8F77B80054D0E8 /* FSVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSVideoVC.swift; sourceTree = "<group>"; };
+		A98CEC5B1F8F77B80054D0E8 /* YPImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPImagePicker.swift; sourceTree = "<group>"; };
+		A98CEC5C1F8F77B80054D0E8 /* YPImagePickerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPImagePickerHeader.h; sourceTree = "<group>"; };
+		C6F74C652D158486ED6BE3EE /* Pods-YPImagePickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPImagePickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YPImagePickerDemo/Pods-YPImagePickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D127C050A1655CE4333679E3 /* Pods_YPImagePickerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPImagePickerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4944247BC18C79B02F25398 /* Pods-YPImagePickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPImagePickerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YPImagePickerDemo/Pods-YPImagePickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A98CEC241F8F5A350054D0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B56CE254B6D25850E4EC64 /* Pods_YPImagePickerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5292058D79B397F40DDC53EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D127C050A1655CE4333679E3 /* Pods_YPImagePickerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A98CEC1E1F8F5A350054D0E8 = {
+			isa = PBXGroup;
+			children = (
+				A98CEC291F8F5A350054D0E8 /* YPImagePickerDemo */,
+				A98CEC281F8F5A350054D0E8 /* Products */,
+				FE147E634F7F7DA39D9FCA43 /* Pods */,
+				5292058D79B397F40DDC53EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A98CEC281F8F5A350054D0E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A98CEC271F8F5A350054D0E8 /* YPImagePickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A98CEC291F8F5A350054D0E8 /* YPImagePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A98CEC3C1F8F77B80054D0E8 /* Source */,
+				A98CEC2A1F8F5A350054D0E8 /* AppDelegate.swift */,
+				A98CEC2C1F8F5A350054D0E8 /* ViewController.swift */,
+				A98CEC2E1F8F5A360054D0E8 /* Main.storyboard */,
+				A98CEC311F8F5A360054D0E8 /* Assets.xcassets */,
+				A98CEC331F8F5A360054D0E8 /* LaunchScreen.storyboard */,
+				A98CEC361F8F5A360054D0E8 /* Info.plist */,
+			);
+			path = YPImagePickerDemo;
+			sourceTree = "<group>";
+		};
+		A98CEC3C1F8F77B80054D0E8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A98CEC3D1F8F77B80054D0E8 /* Album */,
+				A98CEC4A1F8F77B80054D0E8 /* Camera */,
+				A98CEC4D1F8F77B80054D0E8 /* Filters */,
+				A98CEC531F8F77B80054D0E8 /* FSBottomPager.swift */,
+				A98CEC541F8F77B80054D0E8 /* FSConfiguration.swift */,
+				A98CEC551F8F77B80054D0E8 /* FSHelpers.swift */,
+				A98CEC561F8F77B80054D0E8 /* Info.plist */,
+				A98CEC571F8F77B80054D0E8 /* PhotoSaver.swift */,
+				A98CEC581F8F77B80054D0E8 /* PickerVC.swift */,
+				A98CEC591F8F77B80054D0E8 /* Video */,
+				A98CEC5B1F8F77B80054D0E8 /* YPImagePicker.swift */,
+				A98CEC5C1F8F77B80054D0E8 /* YPImagePickerHeader.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A98CEC3D1F8F77B80054D0E8 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				A98CEC3E1F8F77B80054D0E8 /* Album.swift */,
+				A98CEC3F1F8F77B80054D0E8 /* FSAlbumVC.swift */,
+				A98CEC401F8F77B80054D0E8 /* FSAlbumView.swift */,
+				A98CEC411F8F77B80054D0E8 /* FSAlbumView.xib */,
+				A98CEC421F8F77B80054D0E8 /* FSAlbumViewCell.swift */,
+				A98CEC431F8F77B80054D0E8 /* FSGridView.swift */,
+				A98CEC441F8F77B80054D0E8 /* FSImageCropView.swift */,
+				A98CEC451F8F77B80054D0E8 /* ImageCropViewContainer.swift */,
+				A98CEC461F8F77B80054D0E8 /* PHAssetCollection+Album.swift */,
+				A98CEC471F8F77B80054D0E8 /* YPAlbumFolderCell.swift */,
+				A98CEC481F8F77B80054D0E8 /* YPAlbumFolderSelectionVC.swift */,
+				A98CEC491F8F77B80054D0E8 /* YPAlbumFolderSelectionView.swift */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		A98CEC4A1F8F77B80054D0E8 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				A98CEC4B1F8F77B80054D0E8 /* FSCameraVC.swift */,
+				A98CEC4C1F8F77B80054D0E8 /* FSCameraView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		A98CEC4D1F8F77B80054D0E8 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				A98CEC4E1F8F77B80054D0E8 /* Filter.swift */,
+				A98CEC4F1F8F77B80054D0E8 /* FilterCollectionViewCell.swift */,
+				A98CEC501F8F77B80054D0E8 /* FilterPreview.swift */,
+				A98CEC511F8F77B80054D0E8 /* FiltersVC.swift */,
+				A98CEC521F8F77B80054D0E8 /* FiltersView.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		A98CEC591F8F77B80054D0E8 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				A98CEC5A1F8F77B80054D0E8 /* FSVideoVC.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		FE147E634F7F7DA39D9FCA43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6F74C652D158486ED6BE3EE /* Pods-YPImagePickerDemo.debug.xcconfig */,
+				D4944247BC18C79B02F25398 /* Pods-YPImagePickerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98CEC261F8F5A350054D0E8 /* YPImagePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98CEC391F8F5A360054D0E8 /* Build configuration list for PBXNativeTarget "YPImagePickerDemo" */;
+			buildPhases = (
+				E7CD95258943B125589EAE0A /* [CP] Check Pods Manifest.lock */,
+				A98CEC231F8F5A350054D0E8 /* Sources */,
+				A98CEC241F8F5A350054D0E8 /* Frameworks */,
+				A98CEC251F8F5A350054D0E8 /* Resources */,
+				68286138FD925F0012D0A7CB /* [CP] Embed Pods Frameworks */,
+				1FD51B1A1D748912399EA944 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPImagePickerDemo;
+			productName = YPImagePickerDemo;
+			productReference = A98CEC271F8F5A350054D0E8 /* YPImagePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98CEC1F1F8F5A350054D0E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Indianic;
+				TargetAttributes = {
+					A98CEC261F8F5A350054D0E8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A98CEC221F8F5A350054D0E8 /* Build configuration list for PBXProject "YPImagePickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A98CEC1E1F8F5A350054D0E8;
+			productRefGroup = A98CEC281F8F5A350054D0E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A98CEC261F8F5A350054D0E8 /* YPImagePickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A98CEC251F8F5A350054D0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98CEC351F8F5A360054D0E8 /* LaunchScreen.storyboard in Resources */,
+				A98CEC601F8F77B80054D0E8 /* FSAlbumView.xib in Resources */,
+				A98CEC321F8F5A360054D0E8 /* Assets.xcassets in Resources */,
+				A98CEC731F8F77B80054D0E8 /* Info.plist in Resources */,
+				A98CEC301F8F5A360054D0E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FD51B1A1D748912399EA944 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YPImagePickerDemo/Pods-YPImagePickerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68286138FD925F0012D0A7CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YPImagePickerDemo/Pods-YPImagePickerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Stevia/Stevia.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YPImagePickerDemo/Pods-YPImagePickerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7CD95258943B125589EAE0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YPImagePickerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A98CEC231F8F5A350054D0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98CEC651F8F77B80054D0E8 /* PHAssetCollection+Album.swift in Sources */,
+				A98CEC621F8F77B80054D0E8 /* FSGridView.swift in Sources */,
+				A98CEC691F8F77B80054D0E8 /* FSCameraVC.swift in Sources */,
+				A98CEC671F8F77B80054D0E8 /* YPAlbumFolderSelectionVC.swift in Sources */,
+				A98CEC701F8F77B80054D0E8 /* FSBottomPager.swift in Sources */,
+				A98CEC711F8F77B80054D0E8 /* FSConfiguration.swift in Sources */,
+				A98CEC6F1F8F77B80054D0E8 /* FiltersView.swift in Sources */,
+				A98CEC5F1F8F77B80054D0E8 /* FSAlbumView.swift in Sources */,
+				A98CEC2D1F8F5A350054D0E8 /* ViewController.swift in Sources */,
+				A98CEC631F8F77B80054D0E8 /* FSImageCropView.swift in Sources */,
+				A98CEC751F8F77B80054D0E8 /* PickerVC.swift in Sources */,
+				A98CEC5E1F8F77B80054D0E8 /* FSAlbumVC.swift in Sources */,
+				A98CEC2B1F8F5A350054D0E8 /* AppDelegate.swift in Sources */,
+				A98CEC6C1F8F77B80054D0E8 /* FilterCollectionViewCell.swift in Sources */,
+				A98CEC6D1F8F77B80054D0E8 /* FilterPreview.swift in Sources */,
+				A98CEC761F8F77B80054D0E8 /* FSVideoVC.swift in Sources */,
+				A98CEC721F8F77B80054D0E8 /* FSHelpers.swift in Sources */,
+				A98CEC771F8F77B80054D0E8 /* YPImagePicker.swift in Sources */,
+				A98CEC681F8F77B80054D0E8 /* YPAlbumFolderSelectionView.swift in Sources */,
+				A98CEC641F8F77B80054D0E8 /* ImageCropViewContainer.swift in Sources */,
+				A98CEC6A1F8F77B80054D0E8 /* FSCameraView.swift in Sources */,
+				A98CEC6E1F8F77B80054D0E8 /* FiltersVC.swift in Sources */,
+				A98CEC661F8F77B80054D0E8 /* YPAlbumFolderCell.swift in Sources */,
+				A98CEC6B1F8F77B80054D0E8 /* Filter.swift in Sources */,
+				A98CEC5D1F8F77B80054D0E8 /* Album.swift in Sources */,
+				A98CEC741F8F77B80054D0E8 /* PhotoSaver.swift in Sources */,
+				A98CEC611F8F77B80054D0E8 /* FSAlbumViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A98CEC2E1F8F5A360054D0E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98CEC2F1F8F5A360054D0E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A98CEC331F8F5A360054D0E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98CEC341F8F5A360054D0E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A98CEC371F8F5A360054D0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A98CEC381F8F5A360054D0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A98CEC3A1F8F5A360054D0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F74C652D158486ED6BE3EE /* Pods-YPImagePickerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YPImagePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.YPImagePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A98CEC3B1F8F5A360054D0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4944247BC18C79B02F25398 /* Pods-YPImagePickerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YPImagePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.YPImagePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98CEC221F8F5A350054D0E8 /* Build configuration list for PBXProject "YPImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98CEC371F8F5A360054D0E8 /* Debug */,
+				A98CEC381F8F5A360054D0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98CEC391F8F5A360054D0E8 /* Build configuration list for PBXNativeTarget "YPImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98CEC3A1F8F5A360054D0E8 /* Debug */,
+				A98CEC3B1F8F5A360054D0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A98CEC1F1F8F5A350054D0E8 /* Project object */;
+}

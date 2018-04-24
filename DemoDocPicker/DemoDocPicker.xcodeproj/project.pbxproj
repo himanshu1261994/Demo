@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9CD7A781EC352E8004E6EC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD7A771EC352E8004E6EC4 /* AppDelegate.swift */; };
+		A9CD7A7A1EC352E8004E6EC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD7A791EC352E8004E6EC4 /* ViewController.swift */; };
+		A9CD7A7D1EC352E8004E6EC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7A7B1EC352E8004E6EC4 /* Main.storyboard */; };
+		A9CD7A7F1EC352E9004E6EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7A7E1EC352E9004E6EC4 /* Assets.xcassets */; };
+		A9CD7A821EC352E9004E6EC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7A801EC352E9004E6EC4 /* LaunchScreen.storyboard */; };
+		A9CD7AA31EC352FC004E6EC4 /* DropBoxContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD7A8A1EC352FC004E6EC4 /* DropBoxContentViewController.swift */; };
+		A9CD7AA41EC352FC004E6EC4 /* GoogleDriveContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD7A8B1EC352FC004E6EC4 /* GoogleDriveContentViewController.swift */; };
+		A9CD7AA51EC352FC004E6EC4 /* MasterDocumentFile.png in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7A8D1EC352FC004E6EC4 /* MasterDocumentFile.png */; };
+		A9CD7AA61EC352FC004E6EC4 /* MasterDocumentFile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7A8E1EC352FC004E6EC4 /* MasterDocumentFile@2x.png */; };
+		A9CD7AA71EC352FC004E6EC4 /* MasterDocumentFile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7A8F1EC352FC004E6EC4 /* MasterDocumentFile@3x.png */; };
+		A9CD7AA81EC352FC004E6EC4 /* MasterDocumentFolder.png in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7A901EC352FC004E6EC4 /* MasterDocumentFolder.png */; };
+		A9CD7AA91EC352FC004E6EC4 /* MasterDocumentFolder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7A911EC352FC004E6EC4 /* MasterDocumentFolder@2x.png */; };
+		A9CD7AAA1EC352FC004E6EC4 /* MasterDocumentFolder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7A921EC352FC004E6EC4 /* MasterDocumentFolder@3x.png */; };
+		A9CD7AAB1EC352FC004E6EC4 /* MasterDocumentUpload.png in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7A931EC352FC004E6EC4 /* MasterDocumentUpload.png */; };
+		A9CD7AAC1EC352FC004E6EC4 /* MasterDocumentUpload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7A941EC352FC004E6EC4 /* MasterDocumentUpload@2x.png */; };
+		A9CD7AAD1EC352FC004E6EC4 /* MasterDocumentUpload@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7A951EC352FC004E6EC4 /* MasterDocumentUpload@3x.png */; };
+		A9CD7AAE1EC352FC004E6EC4 /* MasterDocumentConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD7A961EC352FC004E6EC4 /* MasterDocumentConstant.swift */; };
+		A9CD7AAF1EC352FC004E6EC4 /* MasterDocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD7A971EC352FC004E6EC4 /* MasterDocumentPicker.swift */; };
+		A9CD7AB01EC352FC004E6EC4 /* MasterDocumentProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD7A981EC352FC004E6EC4 /* MasterDocumentProtocols.swift */; };
+		A9CD7AB11EC352FC004E6EC4 /* MasterDocumentUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD7A991EC352FC004E6EC4 /* MasterDocumentUtility.swift */; };
+		A9CD7AB21EC352FC004E6EC4 /* UIButtonMasterDocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD7A9A1EC352FC004E6EC4 /* UIButtonMasterDocumentPicker.swift */; };
+		A9CD7AB31EC352FC004E6EC4 /* UIButtonMasterDocumentUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD7A9B1EC352FC004E6EC4 /* UIButtonMasterDocumentUploader.swift */; };
+		A9CD7AB41EC352FC004E6EC4 /* MasterDocumentContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD7A9E1EC352FC004E6EC4 /* MasterDocumentContentCell.swift */; };
+		A9CD7AB51EC352FC004E6EC4 /* DropBoxContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7AA01EC352FC004E6EC4 /* DropBoxContentViewController.xib */; };
+		A9CD7AB61EC352FC004E6EC4 /* GoogleDriveContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7AA11EC352FC004E6EC4 /* GoogleDriveContentViewController.xib */; };
+		A9CD7AB71EC352FC004E6EC4 /* MasterDocumentContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9CD7AA21EC352FC004E6EC4 /* MasterDocumentContentCell.xib */; };
+		BC8580EF45DD605FF34F949B /* Pods_DemoDocPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C7B93D426419F9E0B6E681 /* Pods_DemoDocPicker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2713A051E2CCC9444CA33C5A /* Pods-DemoDocPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoDocPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoDocPicker/Pods-DemoDocPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		8F196DD0760D78EC74257DB4 /* Pods-DemoDocPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoDocPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoDocPicker/Pods-DemoDocPicker.release.xcconfig"; sourceTree = "<group>"; };
+		A9CD7A741EC352E8004E6EC4 /* DemoDocPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoDocPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CD7A771EC352E8004E6EC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9CD7A791EC352E8004E6EC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9CD7A7C1EC352E8004E6EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9CD7A7E1EC352E9004E6EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9CD7A811EC352E9004E6EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9CD7A831EC352E9004E6EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9CD7A8A1EC352FC004E6EC4 /* DropBoxContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBoxContentViewController.swift; sourceTree = "<group>"; };
+		A9CD7A8B1EC352FC004E6EC4 /* GoogleDriveContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveContentViewController.swift; sourceTree = "<group>"; };
+		A9CD7A8D1EC352FC004E6EC4 /* MasterDocumentFile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MasterDocumentFile.png; sourceTree = "<group>"; };
+		A9CD7A8E1EC352FC004E6EC4 /* MasterDocumentFile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MasterDocumentFile@2x.png"; sourceTree = "<group>"; };
+		A9CD7A8F1EC352FC004E6EC4 /* MasterDocumentFile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MasterDocumentFile@3x.png"; sourceTree = "<group>"; };
+		A9CD7A901EC352FC004E6EC4 /* MasterDocumentFolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MasterDocumentFolder.png; sourceTree = "<group>"; };
+		A9CD7A911EC352FC004E6EC4 /* MasterDocumentFolder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MasterDocumentFolder@2x.png"; sourceTree = "<group>"; };
+		A9CD7A921EC352FC004E6EC4 /* MasterDocumentFolder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MasterDocumentFolder@3x.png"; sourceTree = "<group>"; };
+		A9CD7A931EC352FC004E6EC4 /* MasterDocumentUpload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MasterDocumentUpload.png; sourceTree = "<group>"; };
+		A9CD7A941EC352FC004E6EC4 /* MasterDocumentUpload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MasterDocumentUpload@2x.png"; sourceTree = "<group>"; };
+		A9CD7A951EC352FC004E6EC4 /* MasterDocumentUpload@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MasterDocumentUpload@3x.png"; sourceTree = "<group>"; };
+		A9CD7A961EC352FC004E6EC4 /* MasterDocumentConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterDocumentConstant.swift; sourceTree = "<group>"; };
+		A9CD7A971EC352FC004E6EC4 /* MasterDocumentPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterDocumentPicker.swift; sourceTree = "<group>"; };
+		A9CD7A981EC352FC004E6EC4 /* MasterDocumentProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterDocumentProtocols.swift; sourceTree = "<group>"; };
+		A9CD7A991EC352FC004E6EC4 /* MasterDocumentUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterDocumentUtility.swift; sourceTree = "<group>"; };
+		A9CD7A9A1EC352FC004E6EC4 /* UIButtonMasterDocumentPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonMasterDocumentPicker.swift; sourceTree = "<group>"; };
+		A9CD7A9B1EC352FC004E6EC4 /* UIButtonMasterDocumentUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonMasterDocumentUploader.swift; sourceTree = "<group>"; };
+		A9CD7A9E1EC352FC004E6EC4 /* MasterDocumentContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterDocumentContentCell.swift; sourceTree = "<group>"; };
+		A9CD7AA01EC352FC004E6EC4 /* DropBoxContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropBoxContentViewController.xib; sourceTree = "<group>"; };
+		A9CD7AA11EC352FC004E6EC4 /* GoogleDriveContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleDriveContentViewController.xib; sourceTree = "<group>"; };
+		A9CD7AA21EC352FC004E6EC4 /* MasterDocumentContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterDocumentContentCell.xib; sourceTree = "<group>"; };
+		A9CD7AB81EC35722004E6EC4 /* DemoDocPicker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoDocPicker-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9E64DB71EC360A200E439AF /* DemoDocPicker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoDocPicker.entitlements; sourceTree = "<group>"; };
+		E8C7B93D426419F9E0B6E681 /* Pods_DemoDocPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoDocPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9CD7A711EC352E8004E6EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8580EF45DD605FF34F949B /* Pods_DemoDocPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E3DECC1D56649FC084CE0CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2713A051E2CCC9444CA33C5A /* Pods-DemoDocPicker.debug.xcconfig */,
+				8F196DD0760D78EC74257DB4 /* Pods-DemoDocPicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9CD7A6B1EC352E8004E6EC4 = {
+			isa = PBXGroup;
+			children = (
+				A9CD7A761EC352E8004E6EC4 /* DemoDocPicker */,
+				A9CD7A751EC352E8004E6EC4 /* Products */,
+				5E3DECC1D56649FC084CE0CD /* Pods */,
+				CBC57BDA020938E238DE9765 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9CD7A751EC352E8004E6EC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD7A741EC352E8004E6EC4 /* DemoDocPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9CD7A761EC352E8004E6EC4 /* DemoDocPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A9E64DB71EC360A200E439AF /* DemoDocPicker.entitlements */,
+				A9CD7A891EC352FC004E6EC4 /* MasterDocumentPicker */,
+				A9CD7A771EC352E8004E6EC4 /* AppDelegate.swift */,
+				A9CD7A791EC352E8004E6EC4 /* ViewController.swift */,
+				A9CD7A7B1EC352E8004E6EC4 /* Main.storyboard */,
+				A9CD7A7E1EC352E9004E6EC4 /* Assets.xcassets */,
+				A9CD7A801EC352E9004E6EC4 /* LaunchScreen.storyboard */,
+				A9CD7A831EC352E9004E6EC4 /* Info.plist */,
+				A9CD7AB81EC35722004E6EC4 /* DemoDocPicker-Bridging-Header.h */,
+			);
+			path = DemoDocPicker;
+			sourceTree = "<group>";
+		};
+		A9CD7A891EC352FC004E6EC4 /* MasterDocumentPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD7A8A1EC352FC004E6EC4 /* DropBoxContentViewController.swift */,
+				A9CD7A8B1EC352FC004E6EC4 /* GoogleDriveContentViewController.swift */,
+				A9CD7A8C1EC352FC004E6EC4 /* Images */,
+				A9CD7A961EC352FC004E6EC4 /* MasterDocumentConstant.swift */,
+				A9CD7A971EC352FC004E6EC4 /* MasterDocumentPicker.swift */,
+				A9CD7A981EC352FC004E6EC4 /* MasterDocumentProtocols.swift */,
+				A9CD7A991EC352FC004E6EC4 /* MasterDocumentUtility.swift */,
+				A9CD7A9A1EC352FC004E6EC4 /* UIButtonMasterDocumentPicker.swift */,
+				A9CD7A9B1EC352FC004E6EC4 /* UIButtonMasterDocumentUploader.swift */,
+				A9CD7A9C1EC352FC004E6EC4 /* View */,
+			);
+			path = MasterDocumentPicker;
+			sourceTree = "<group>";
+		};
+		A9CD7A8C1EC352FC004E6EC4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD7A8D1EC352FC004E6EC4 /* MasterDocumentFile.png */,
+				A9CD7A8E1EC352FC004E6EC4 /* MasterDocumentFile@2x.png */,
+				A9CD7A8F1EC352FC004E6EC4 /* MasterDocumentFile@3x.png */,
+				A9CD7A901EC352FC004E6EC4 /* MasterDocumentFolder.png */,
+				A9CD7A911EC352FC004E6EC4 /* MasterDocumentFolder@2x.png */,
+				A9CD7A921EC352FC004E6EC4 /* MasterDocumentFolder@3x.png */,
+				A9CD7A931EC352FC004E6EC4 /* MasterDocumentUpload.png */,
+				A9CD7A941EC352FC004E6EC4 /* MasterDocumentUpload@2x.png */,
+				A9CD7A951EC352FC004E6EC4 /* MasterDocumentUpload@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A9CD7A9C1EC352FC004E6EC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD7A9D1EC352FC004E6EC4 /* Classes */,
+				A9CD7A9F1EC352FC004E6EC4 /* XIB */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A9CD7A9D1EC352FC004E6EC4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD7A9E1EC352FC004E6EC4 /* MasterDocumentContentCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A9CD7A9F1EC352FC004E6EC4 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD7AA01EC352FC004E6EC4 /* DropBoxContentViewController.xib */,
+				A9CD7AA11EC352FC004E6EC4 /* GoogleDriveContentViewController.xib */,
+				A9CD7AA21EC352FC004E6EC4 /* MasterDocumentContentCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		CBC57BDA020938E238DE9765 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C7B93D426419F9E0B6E681 /* Pods_DemoDocPicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9CD7A731EC352E8004E6EC4 /* DemoDocPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CD7A861EC352E9004E6EC4 /* Build configuration list for PBXNativeTarget "DemoDocPicker" */;
+			buildPhases = (
+				97D328F060AC41DBE7D6F178 /* [CP] Check Pods Manifest.lock */,
+				A9CD7A701EC352E8004E6EC4 /* Sources */,
+				A9CD7A711EC352E8004E6EC4 /* Frameworks */,
+				A9CD7A721EC352E8004E6EC4 /* Resources */,
+				E167B66251B651E2FBCA152A /* [CP] Embed Pods Frameworks */,
+				9756654C562F5E7E42167932 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoDocPicker;
+			productName = DemoDocPicker;
+			productReference = A9CD7A741EC352E8004E6EC4 /* DemoDocPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9CD7A6C1EC352E8004E6EC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Indianic;
+				TargetAttributes = {
+					A9CD7A731EC352E8004E6EC4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7BCW99KL8P;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A9CD7A6F1EC352E8004E6EC4 /* Build configuration list for PBXProject "DemoDocPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9CD7A6B1EC352E8004E6EC4;
+			productRefGroup = A9CD7A751EC352E8004E6EC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9CD7A731EC352E8004E6EC4 /* DemoDocPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9CD7A721EC352E8004E6EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CD7AB61EC352FC004E6EC4 /* GoogleDriveContentViewController.xib in Resources */,
+				A9CD7AA61EC352FC004E6EC4 /* MasterDocumentFile@2x.png in Resources */,
+				A9CD7AB51EC352FC004E6EC4 /* DropBoxContentViewController.xib in Resources */,
+				A9CD7AA51EC352FC004E6EC4 /* MasterDocumentFile.png in Resources */,
+				A9CD7AB71EC352FC004E6EC4 /* MasterDocumentContentCell.xib in Resources */,
+				A9CD7A821EC352E9004E6EC4 /* LaunchScreen.storyboard in Resources */,
+				A9CD7AAA1EC352FC004E6EC4 /* MasterDocumentFolder@3x.png in Resources */,
+				A9CD7A7F1EC352E9004E6EC4 /* Assets.xcassets in Resources */,
+				A9CD7AAD1EC352FC004E6EC4 /* MasterDocumentUpload@3x.png in Resources */,
+				A9CD7AAB1EC352FC004E6EC4 /* MasterDocumentUpload.png in Resources */,
+				A9CD7AAC1EC352FC004E6EC4 /* MasterDocumentUpload@2x.png in Resources */,
+				A9CD7AA81EC352FC004E6EC4 /* MasterDocumentFolder.png in Resources */,
+				A9CD7AA71EC352FC004E6EC4 /* MasterDocumentFile@3x.png in Resources */,
+				A9CD7A7D1EC352E8004E6EC4 /* Main.storyboard in Resources */,
+				A9CD7AA91EC352FC004E6EC4 /* MasterDocumentFolder@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9756654C562F5E7E42167932 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoDocPicker/Pods-DemoDocPicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97D328F060AC41DBE7D6F178 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E167B66251B651E2FBCA152A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoDocPicker/Pods-DemoDocPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9CD7A701EC352E8004E6EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CD7AAF1EC352FC004E6EC4 /* MasterDocumentPicker.swift in Sources */,
+				A9CD7AAE1EC352FC004E6EC4 /* MasterDocumentConstant.swift in Sources */,
+				A9CD7A7A1EC352E8004E6EC4 /* ViewController.swift in Sources */,
+				A9CD7AA31EC352FC004E6EC4 /* DropBoxContentViewController.swift in Sources */,
+				A9CD7AA41EC352FC004E6EC4 /* GoogleDriveContentViewController.swift in Sources */,
+				A9CD7AB11EC352FC004E6EC4 /* MasterDocumentUtility.swift in Sources */,
+				A9CD7AB31EC352FC004E6EC4 /* UIButtonMasterDocumentUploader.swift in Sources */,
+				A9CD7AB21EC352FC004E6EC4 /* UIButtonMasterDocumentPicker.swift in Sources */,
+				A9CD7A781EC352E8004E6EC4 /* AppDelegate.swift in Sources */,
+				A9CD7AB41EC352FC004E6EC4 /* MasterDocumentContentCell.swift in Sources */,
+				A9CD7AB01EC352FC004E6EC4 /* MasterDocumentProtocols.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9CD7A7B1EC352E8004E6EC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9CD7A7C1EC352E8004E6EC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9CD7A801EC352E9004E6EC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9CD7A811EC352E9004E6EC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9CD7A841EC352E9004E6EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9CD7A851EC352E9004E6EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9CD7A871EC352E9004E6EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2713A051E2CCC9444CA33C5A /* Pods-DemoDocPicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DemoDocPicker/DemoDocPicker.entitlements;
+				DEVELOPMENT_TEAM = 7BCW99KL8P;
+				INFOPLIST_FILE = DemoDocPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.icloudProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3a73cfce-11e5-4174-8ffc-39c931c749a6";
+				PROVISIONING_PROFILE_SPECIFIER = "IndiaNIC iCloud Project Development Profile";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoDocPicker/DemoDocPicker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A9CD7A881EC352E9004E6EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F196DD0760D78EC74257DB4 /* Pods-DemoDocPicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DemoDocPicker/DemoDocPicker.entitlements;
+				DEVELOPMENT_TEAM = 7BCW99KL8P;
+				INFOPLIST_FILE = DemoDocPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.icloudProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3a73cfce-11e5-4174-8ffc-39c931c749a6";
+				PROVISIONING_PROFILE_SPECIFIER = "IndiaNIC iCloud Project Development Profile";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoDocPicker/DemoDocPicker-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9CD7A6F1EC352E8004E6EC4 /* Build configuration list for PBXProject "DemoDocPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CD7A841EC352E9004E6EC4 /* Debug */,
+				A9CD7A851EC352E9004E6EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CD7A861EC352E9004E6EC4 /* Build configuration list for PBXNativeTarget "DemoDocPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CD7A871EC352E9004E6EC4 /* Debug */,
+				A9CD7A881EC352E9004E6EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9CD7A6C1EC352E8004E6EC4 /* Project object */;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Blog_master" representedClassName="Blog_master" syncable="YES">
+        <attribute name="blog_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="blog_title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="userMaster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User_master" inverseName="bolgMaster" inverseEntity="User_master" syncable="YES"/>
+    </entity>
+    <entity name="User_master" representedClassName="User_master" syncable="YES">
+        <attribute name="contact_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bolgMaster" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Blog_master" inverseName="userMaster" inverseEntity="Blog_master" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Blog_master" positionX="153" positionY="209" width="128" height="88"/>
+        <element name="User_master" positionX="-63" positionY="117" width="128" height="118"/>
+    </elements>
+</model>

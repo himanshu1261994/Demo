@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "close-up-grass-green-tree-tree-sun-rays-blur-bokeh-grass-green-sun-trees-background-macro-wallpaper-widescreen-full-screen-widescreen-hd-wallpapers-background-wallpaper-widescreen-fullscreen-widescree.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
