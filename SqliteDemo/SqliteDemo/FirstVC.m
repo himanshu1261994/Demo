@@ -2,8 +2,8 @@
 //  FirstVC.m
 //  SqliteDemo
 //
-//  Created by indianic on 19/11/1937 SAKA.
-//  Copyright © 1937 SAKA indianic. All rights reserved.
+//  Created by Himanshu on 19/11/1937 SAKA.
+//  Copyright © 1937 SAKA Himanshu. All rights reserved.
 //
 
 #import "FirstVC.h"

@@ -2,8 +2,8 @@
 //  EditVideoVC.h
 //  ScrollingGraphDemo
 //
-//  Created by indianic on 23/01/1938 SAKA.
-//  Copyright © 1938 SAKA indianic. All rights reserved.
+//  Created by Himanshu on 23/01/1938 SAKA.
+//  Copyright © 1938 SAKA Himanshu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

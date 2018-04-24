@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  SqliteDemo
 //
-//  Created by indianic on 19/11/1937 SAKA.
-//  Copyright © 1937 SAKA indianic. All rights reserved.
+//  Created by Himanshu on 19/11/1937 SAKA.
+//  Copyright © 1937 SAKA Himanshu. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -78,7 +78,7 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory {
-    // The directory the application uses to store the Core Data store file. This code uses a directory named "com.indianic.SqliteDemo" in the application's documents directory.
+    // The directory the application uses to store the Core Data store file. This code uses a directory named "com.Himanshu.SqliteDemo" in the application's documents directory.
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 

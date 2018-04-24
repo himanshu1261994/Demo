@@ -2,8 +2,8 @@
 //  ScrollingGraphDemoUITests.m
 //  ScrollingGraphDemoUITests
 //
-//  Created by indianic on 18/01/1938 SAKA.
-//  Copyright © 1938 SAKA indianic. All rights reserved.
+//  Created by Himanshu on 18/01/1938 SAKA.
+//  Copyright © 1938 SAKA Himanshu. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

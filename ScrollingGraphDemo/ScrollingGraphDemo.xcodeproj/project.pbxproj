@@ -461,7 +461,7 @@
 				INFOPLIST_FILE = ScrollingGraphDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.ScrollingGraphDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Himanshu.ScrollingGraphDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -474,7 +474,7 @@
 				INFOPLIST_FILE = ScrollingGraphDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.ScrollingGraphDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Himanshu.ScrollingGraphDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -485,7 +485,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ScrollingGraphDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.ScrollingGraphDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Himanshu.ScrollingGraphDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingGraphDemo.app/ScrollingGraphDemo";
 			};
@@ -497,7 +497,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ScrollingGraphDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.ScrollingGraphDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Himanshu.ScrollingGraphDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingGraphDemo.app/ScrollingGraphDemo";
 			};
